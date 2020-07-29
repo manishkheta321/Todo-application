@@ -29,9 +29,11 @@
 li{
 
 }
+.off{
+    margin-left: 8.333333333%;
+  }
 .rows{
     margin-top:20px;
-    justify-content: center;
 }
 .titles{
     text-align: center;

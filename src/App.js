@@ -84,7 +84,7 @@ class App extends React.Component{
      
         
           <Row class="rows">
-             <Col sm={{size:"3",offset:"1"}} className="column">
+             <Col  sm="3" className="column off">
                   <p className="titles"><u>TODO </u></p> 
                   <ol>{lists0}</ol>
              </Col>
