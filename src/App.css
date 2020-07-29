@@ -16,6 +16,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     text-shadow: 3px  3px 7px violet;
+    text-align: center;
 }
 .column{
     border:2px solid purple;
