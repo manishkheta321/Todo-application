@@ -73,10 +73,10 @@ class App extends React.Component{
           <legend className="legends">Add a New Task</legend>
 
           <p><input autoFocus type="text" value={this.input} onChange={this.changeinput} /></p>
-          <p>
-          <label><input type="radio"  value="0" checked={this.state.selectedOption==="0"} onChange={this.onValueChange}  /> Todo </label><br/>
-          <label><input type="radio"  value="1" checked={this.state.selectedOption==="1"} onChange={this.onValueChange}  /> In Progress </label><br/>
-          <label><input type="radio"  value="2" checked={this.state.selectedOption==="2"} onChange={this.onValueChange}  /> Done </label></p>
+          
+          <label><input type="radio"  value="0" checked={this.state.selectedOption==="0"} onChange={this.onValueChange} className="radios" /> Todo </label>
+          <label><input type="radio"  value="1" checked={this.state.selectedOption==="1"} onChange={this.onValueChange} className="radios" /> In Progress </label>
+          <label><input type="radio"  value="2" checked={this.state.selectedOption==="2"} onChange={this.onValueChange} className="radios" /> Done </label>
           <button className="buttons" type="submit">Submit</button>
         </fieldset>
       </form>
